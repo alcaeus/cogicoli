@@ -1,0 +1,4 @@
+suites:
+    cogicoli:
+        namespace: Alcaeus\Cogicoli
+        psr4_prefix: Alcaeus\Cogicoli

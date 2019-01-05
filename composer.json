@@ -1,0 +1,30 @@
+{
+    "name": "alcaeus/cogicoli",
+    "description": "COmposer GItHub COntribution Lister lists the contributors from GitHub packages installed using composer.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alcaeus",
+            "email": "alcaeus@alcaeus.org"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "knplabs/github-api": "^1.7",
+        "php-http/guzzle6-adapter": "^1.1"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alcaeus\\Cogicoli\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alcaeus\\Cogicoli\\Tests\\": "tests/"
+        }
+    }
+}
